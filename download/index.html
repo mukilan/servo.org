@@ -263,8 +263,8 @@
 
   function set_build_date(id, build_date) {
       var el = document.getElementById(id);
-      el.innerText = release.tag_name;
-      el.title = release.tag_name;
+      el.innerText = build_date;
+      el.title = build_date;
   }
 
   function get_request(url, callback) {
